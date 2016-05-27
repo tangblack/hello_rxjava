@@ -1,4 +1,4 @@
-package com.tangblack.hellorxjava.threadsafe;
+package com.tangblack.hellorxjava.thread;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -7,9 +7,8 @@ import java.util.List;
 
 import rx.Observable;
 import rx.Observer;
-import rx.schedulers.Schedulers;
 
-public class Main
+public class ThreadSafe
 {
 	/**
 	 * Main.

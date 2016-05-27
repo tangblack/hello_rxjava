@@ -69,7 +69,7 @@ public class Main
 				{
 					try
 					{
-						return Observable.from(webApi.getMessageList(token));
+						return Observable.from(webApi.getMessageList(token)); // 一長串拆成一個一個
 					}
 					catch (Exception e)
 					{

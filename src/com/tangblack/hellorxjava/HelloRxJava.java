@@ -8,6 +8,16 @@ import rx.Observable;
 import rx.functions.Action1;
 import rx.functions.Func1;
 
+/**
+ * 
+ * The class <code>HelloRxJava</code> 
+ *
+ * @author <a href="mailto:tangblack@gmail.com">tangblack</a>
+ * @version 2016年5月26日
+ * @since 2016年5月26日
+ * 
+ * @see <a href="http://www.cnblogs.com/dongweiq/p/5092165.html">RxJava使用场景小结</a>
+ */
 public class HelloRxJava
 {
 	
