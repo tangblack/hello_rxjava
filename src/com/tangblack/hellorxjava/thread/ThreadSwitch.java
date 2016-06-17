@@ -31,6 +31,7 @@ public class ThreadSwitch
 					return integer.toString();
 		        }
 			})
+//			參考： http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/1006/3543.html
 //			取决于更早的 .subscribeOn( )
 //			因为thread1的逻辑将会覆盖thread2，所以Observable的创建和.subscribe( )的逻辑处理都将运行在thread1中。
 //			因此，根本没有必要写多个.subscribeOn( )操作符。
