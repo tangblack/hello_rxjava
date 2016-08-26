@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 import rx.Observable;
 import rx.Subscriber;
 
-public class Retry
+public class RetryWhen
 {
 	/**
 	 * Main.

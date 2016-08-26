@@ -2,6 +2,7 @@ package reactivex.creating;
 
 import rx.Observable;
 import rx.Subscriber;
+import rx.functions.Func1;
 
 public class Create
 {
@@ -34,7 +35,18 @@ public class Create
 					observer.onError(e);
 				}
 			}
-		}).subscribe(new Subscriber<Integer>()
+		})
+		.map(new Func1<Integer, Integer>()
+				{
+					@Override
+					public Integer call(Integer i)
+					{
+						System.out.println("map: " + i);
+
+						return i;
+					}
+				})
+		.subscribe(new Subscriber<Integer>()
 		{
 			@Override
 			public void onNext(Integer item)
